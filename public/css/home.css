@@ -19,7 +19,12 @@
     margin-bottom: 30px;
 }
 .home__header--burger button{
+    padding: 6px 8px 6px 8px;
+    margin: 10px 10px 10px 10px;
     background-color: var(--colorCeleste);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
 }
 
 /* MAIN*/
