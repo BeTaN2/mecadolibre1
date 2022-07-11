@@ -1,0 +1,78 @@
+/*HEADER*/
+.home__header{
+    background-color: var(--colorAmarillo);
+}
+.home__header--titulo{
+    font-size: var(--textoSizeDescripciones);
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.home__header--busqueda{
+    padding: 12px 5px;
+}
+.home__header--burger {
+
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.home__header--burger button{
+    background-color: var(--colorCeleste);
+}
+
+/* MAIN*/
+
+.home__main__div--titulo {
+    font-size: var(--textoSizeTitulares );
+    color: var(--colorGrisOscuro);
+    font-weight: 600;
+    text-align: center;
+}
+
+.home__main__div--producto {
+width:100%;
+
+}
+.home__main__div--precios {
+font-size: var(--textoSizePrecios);
+font-weight: 400;
+}
+
+.home__main__div--descuentos {
+    font-size: var(--textoSizeDescuentos);
+    font-weight: 400;
+}
+.home__main__div--nombreProducto {
+    font-size: var(--textoSizeCuerpo);
+    text-align: center;
+}
+
+/* FOOTER*/
+.home__footer  {
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3% 25% 5% 15%;
+    text-align: center;
+}
+.home__footer__section h4 {
+text-align: center; 
+font-size: 19px;
+font-family: 'Roboto';
+}
+.home__footer__article p br {
+margin-top: 5px;
+text-align: center;
+font-family: 'Roboto';
+padding: 0 0 20px;
+margin-bottom: 20px;
+}
+.home__footer__article__img {
+    text-align: center;
+    margin-top: 8%;
+    color: var(--colorCeleste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
