@@ -1,83 +1,182 @@
 /*HEADER*/
-.home__header{
+.body_header{
     background-color: var(--colorAmarillo);
+    
 }
-.home__header--titulo{
-    font-size: var(--textoSizeDescripciones);
+
+.body_header--superior img {
+    margin-left: 20px;
+    width: 150px;
+}
+
+.body_header--superior form {
+    margin-left: 20px;
+}
+
+
+.body_header--superior h2 {
     font-weight: 400;
     text-align: center;
-    margin-bottom: 15px;
 }
-.home__header--busqueda{
-    padding: 12px 5px;
-}
-.home__header--burger {
 
+
+.body_header_botton--burger{
+    background-color: var(--colorAzul) ;
+    color: var(--colorGrisClaro);
+    display: block;
+    width: 50px;
     text-align: center;
-    align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.home__header--burger button{
-    padding: 6px 8px 6px 8px;
-    margin: 10px 10px 10px 10px;
-    background-color: var(--colorCeleste);
-    color: white;
-    border: 0px;
-    border-radius: 5px;
+    padding: 15px 0;
+    border-radius : 10px;
+    font-size: 18px;
+    margin:auto;
+    margin-top: 20px;
 }
 
+.body_header--menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.body_header--menu a {
+    display: inline-block;
+    padding: 5xp 0;
+    font-size: 17px;
+    text-decoration: none;
+    color : var(--colorOscuro);
+}
+.body_header--banner{
+    width: 100%;
+}
 /* MAIN*/
 
-.home__main__div--titulo {
-    font-size: var(--textoSizeTitulares );
+.body_main{
+    margin: 0px 5%;
+}
+
+.body_main section{       
+    width: 100%;
+}
+
+.body_main_article--img{
+    width: 100%;
+    margin: 10px 0 0 0;
+    background-color:white;
+}
+
+.body_main_article--img img{
+    width: 100%;
+    
+}
+
+.body_main_article--item{
+    border-top: 1px solid #ebebeb;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.body_main_article--item i{
+    color: var(--colorVerde);
+    display: block;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 15px 5px;
+    margin-left: 5px;
+    border: solid 2px var(--colorVerde);
+    border-radius: 30px;
+}
+
+.body_main_titulares{
     color: var(--colorGrisOscuro);
-    font-weight: 600;
+    font-size: 24px;
     text-align: center;
+    margin: 0;
 }
 
-.home__main__div--producto {
-width:100%;
-
-}
-.home__main__div--precios {
-font-size: var(--textoSizePrecios);
-font-weight: 400;
+.body_main--ultimaVisita section {
+    margin-top: 15px;
 }
 
-.home__main__div--descuentos {
-    font-size: var(--textoSizeDescuentos);
-    font-weight: 400;
-}
-.home__main__div--nombreProducto {
-    font-size: var(--textoSizeCuerpo);
+.body_main--ultimaVisita img {
+    display: block;
     text-align: center;
+    margin:auto;
 }
 
-/* FOOTER*/
-.home__footer  {
-    font-size: 14px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 3% 25% 5% 15%;
+.body_main--ultimaVisita .precio {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.body_main--ultimaVisita .descuento {
+    margin-left: 10px;
+    font-size: 16px;
+    color: var(--colorVerde);
+}
+
+.body_main--ultimaVisita .descripcion {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.body_main--ofertas section {
+    margin-top: 15px;
+}
+
+.body_main--ofertas img {
+    display: block;
     text-align: center;
+    margin:auto;
 }
-.home__footer__section h4 {
-text-align: center; 
-font-size: 19px;
-font-family: 'Roboto';
+
+.body_main--ofertas p.precio {
+    margin-left: 10px;
+    font-size: 18px;
 }
-.home__footer__article p br {
-margin-top: 5px;
-text-align: center;
-font-family: 'Roboto';
-padding: 0 0 20px;
-margin-bottom: 20px;
+
+.body_main--ofertas p.descuento {
+    margin-left: 10px;
+    font-size: 16px;
 }
-.home__footer__article__img {
+
+.body_main--ofertas p.descripcion {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+/*FOOTER*/
+.body_footer{
+    background-color: var(--colorGrisClaro);
+    padding-top: 10px ;
+}
+
+.body_footer_section {
     text-align: center;
-    margin-top: 8%;
-    color: var(--colorCeleste);
+    padding: 15px 0;
+    
+}
+
+.body_footer_icon {
     font-size: 2em;
-    margin-bottom: 10px;
+    margin-bottom: 10 px;
+    color: var(--colorCeleste);
+}   
+
+.body_footer_section h3, p {
+    margin: 0;
+    padding: 0;
+  
+}
+
+.copyrigth {
+    font-size: .7rem;
+    text-align: center;
+}
+
+footer ul li {
+    list-style: none;
+    font-weight: normal;
 }
