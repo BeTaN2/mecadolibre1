@@ -27,6 +27,18 @@
     padding: 0;
 }
 
+.body_header_botton--burger{
+    background-color: var(--colorAzul) ;
+    color: var(--colorGrisClaro);
+    display: block;
+    width: 50px;
+    text-align: center;
+    padding: 15px 0;
+    border-radius : 10px;
+    font-size: 18px;
+    margin: 0 auto 0px;
+    margin-top: 20px;
+}
 
 .body_header--menu a {
     display: inline-block;
